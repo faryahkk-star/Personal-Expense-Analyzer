@@ -13,7 +13,7 @@ class ExpenseTracker:
             DB_FILE.write_text("[]")
 
     def load(self):
-        with open(DB_FILE, "r", encoding="utf-8") as f:
+        with open(DB_FILE, "r", encoding="utf-88") as f:
             return json.load(f)
 
     def save(self, data):
