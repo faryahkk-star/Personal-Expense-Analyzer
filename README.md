@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from datetime import datetime
-from collections import defaultdict
+from collections import defaultdict0
 
 DB_FILE = Path("expenses.json")
 
